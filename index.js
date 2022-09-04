@@ -2,7 +2,7 @@ const dropZone = document.querySelector(".drop-zone");
 const browseBtn = document.querySelector(".browseBtn");
 const fileInput = document.querySelector("#fileInput");
 
-const host = "localhost" // change this to website address
+const host = "theanimob.github.io" // change this to website address
 const uploadURL = `${host}api/files`;
 // const uploadURL = `${host}api/files`;
 
