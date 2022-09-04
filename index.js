@@ -2,9 +2,8 @@ const dropZone = document.querySelector(".drop-zone");
 const browseBtn = document.querySelector(".browseBtn");
 const fileInput = document.querySelector("#fileInput");
 
-const host = "theanimob.github.io" // change this to website address
-const uploadURL = "theanimob.github.io/api/files";
-// const uploadURL = `${host}api/files`;
+const host = "https://upload-test-1234.herokuapp.com/" // change this to website address
+const uploadURL = `${host}api/files`;
 
 
 dropZone.addEventListener("dragover", (e)=>{
