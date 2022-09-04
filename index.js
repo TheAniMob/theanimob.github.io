@@ -3,7 +3,7 @@ const browseBtn = document.querySelector(".browseBtn");
 const fileInput = document.querySelector("#fileInput");
 
 const host = "theanimob.github.io" // change this to website address
-const uploadURL = `${host}/api/files`;
+const uploadURL = theanimob.github.io/api/files;
 // const uploadURL = `${host}api/files`;
 
 
